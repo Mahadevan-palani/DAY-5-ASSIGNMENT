@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-5-ASSIGNMENTS</title>
+    <h1>QUESTION-1</h1>
+</head>
+<body>
+    <script>
+        let n=prompt("Enter the number: ");
+        let arr=[];
+        for(var i=0;i<n;i++){
+            arr.push(i);
+        }
+        let odd_cube=arr.filter(el=>el%2!=0).map(el=>el**3);
+        console.log(odd_cube);
+    </script>
+</body>
+</html>
